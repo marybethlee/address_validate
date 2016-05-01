@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AddressValidateResponse>
+  <Address ID="0">
+    <Error>
+      <Number>-2147219402</Number>
+      <Source>clsAMS</Source>
+      <Description>Invalid State Code. </Description>
+      <HelpFile/>
+      <HelpContext/>
+    </Error>
+  </Address>
+</AddressValidateResponse>

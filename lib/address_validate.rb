@@ -1,6 +1,7 @@
 require 'address_validate/version'
 require 'address_validate/configuration'
 require 'address_validate/api/request'
+require 'address_validate/api/response'
 require 'address_validate/api/error'
 require 'ox'
 
