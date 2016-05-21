@@ -18,7 +18,7 @@ RSpec.describe AddressValidate::API::Response do
     end
 
     it 'parses the return xml into a usable data hash' do
-      expect(response.data['street_address']).to_not be_nil
+      expect(response.data[:street_address]).to_not be_nil
     end
   end
 

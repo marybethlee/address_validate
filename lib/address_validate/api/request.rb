@@ -27,7 +27,7 @@ module AddressValidate
 
       def build_address
         address = build_node('Address', nil, { 'ID' => 0 })
-        AddressValidate::ADDRESS_FIELDS_MAP.each do |field, name|
+        AddressValidate.address_fields_map.each do |field, name|
           address << build_node(field, data[name])
         end
         address

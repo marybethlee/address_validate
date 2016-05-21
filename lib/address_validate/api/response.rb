@@ -35,7 +35,7 @@ module AddressValidate
 
       def parse_data
         {}.tap do |data|
-          AddressValidate::ADDRESS_FIELDS_MAP.each do |field, name|
+          AddressValidate.address_fields_map.each do |field, name|
             data[name] = get_field(field)
           end
         end

@@ -23,13 +23,13 @@ module AddressValidate
 
     def set_default_configuration
       self.environment      = :production
-      self.firm_name        = 'firm_name'
-      self.street_address   = 'street_address'
-      self.apartment_number = 'apartment_number'
-      self.city             = 'city'
-      self.state            = 'state'
-      self.zip_5            = 'zip_5'
-      self.zip_4            = 'zip_4'
+      self.firm_name        = :firm_name
+      self.street_address   = :street_address
+      self.apartment_number = :apartment_number
+      self.city             = :city
+      self.state            = :state
+      self.zip_5            = :zip_5
+      self.zip_4            = :zip_4
     end
   end
 end
