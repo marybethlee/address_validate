@@ -1,8 +1,8 @@
 module AddressValidate
   module Configuration
     API_URLS = {
-      test: 'http://production.shippingapis.com/ShippingAPITest.dll',
-      production: 'http://production.shippingapis.com/ShippingAPI.dll'
+      test: 'https://production.shippingapis.com/ShippingApiTest.dll',
+      production: 'https://production.shippingapis.com/ShippingAPI.dll'
     }
 
     attr_accessor :environment, :username, :password,
