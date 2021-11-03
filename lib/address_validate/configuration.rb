@@ -1,7 +1,7 @@
 module AddressValidate
   module Configuration
     API_URLS = {
-      test: 'https://production.shippingapis.com/ShippingApiTest.dll',
+      test: 'https://production.shippingapis.com/ShippingAPITest.dll',
       production: 'https://production.shippingapis.com/ShippingAPI.dll'
     }
 
