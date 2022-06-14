@@ -14,6 +14,7 @@ module AddressValidate
       def build_xml
         request_xml = build_node('AddressValidateRequest', nil,
                         { 'USERID' => AddressValidate.username })
+        request_xml << build_revision
         request_xml << build_address
         Ox.dump(request_xml)
       end
@@ -23,6 +24,10 @@ module AddressValidate
         attrs.each { |key, value| node[key] = value }
         node << text if text
         node
+      end
+
+      def build_revision
+        build_node('Revision', '1', {})
       end
 
       def build_address
